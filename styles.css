@@ -1,0 +1,397 @@
+@font-face {
+	font-family:"essence";
+	src:url("ARESSENCE.ttf") format("truetype");
+	}
+	
+body
+	{ background-color:#FFC; }
+
+a {
+	padding:0px 5px;
+	background-color:#FF9;
+	box-shadow: 5px 5px 5px #888;
+	text-decoration:none;
+	font-family:essence, Calibri, sans-serif;
+	}
+
+a:hover
+	{ background-color:#FF5; }
+	
+a.imgLink {
+	border:0px none;
+	background-color:#fff;
+	padding:0px;
+	}
+	
+input[type=text], input[type=password] {
+	height:20px;
+	padding-left:5px;
+	border: 0px none;
+	
+	background: #FFF; /* non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFF', endColorstr='#DDD'); /* IE */
+	background: -webkit-gradient(linear, left botttom, left top, from(#FFF), to(#DDD)); /* webkit browsers */
+	background: -moz-linear-gradient(bottom,  #FFF,  #DDD); /* Firefox 3.6+ */
+	}
+	
+.button {
+	padding:5px 10px;
+	text-shadow: 2px 2px 2px #060;
+	
+	border:1px solid;
+	border-color:#ccc;
+	border-radius:25px;
+	-moz-border-radius:25px; /* Firefox 3.6 and earlier */
+	
+	font-weight:bold;
+	color:#ddd;
+	text-shadow: 0px 1px 2px #333, 0px -1px 2px #000;
+	
+	background: #bbb; /* non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ccc', endColorstr='#aaa'); /* IE */
+	background: -webkit-gradient(linear, left botttom, left top, from(#ccc), to(#aaa)); /* webkit browsers */
+	background: -moz-linear-gradient(bottom,  #ccc, #aaa,  #ccc); /* Firefox 3.6+ */
+	}
+	
+.button:active {
+	box-shadow:inset 0px 3px 8px #000;
+	}
+
+.dropShadow
+	{ box-shadow: 5px 5px 15px #888; }
+	
+.fontMain {
+	font-family:Calibri,sans-serif;
+	font-size:1em;
+	}
+	
+.fontHeaderTitle {
+	font-size:3.3em;
+	font-weight:bold;
+	text-shadow: 5px 5px 5px #060;
+	}
+	
+.fontSubTitle {
+	font-size:1.2em;
+	font-weight:bold;
+	text-shadow: 5px 5px 15px #060;
+	}
+	
+.fontSmall
+	{ font-size:.8em; }
+	
+.hr {
+	width:100%;
+	height:1px;
+	border:0px none;
+	background-color:#000;
+	}
+	
+.softGradient {
+	background: #FFF; /* non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFF', endColorstr='#DDD'); /* IE */
+	background: -webkit-gradient(linear, left botttom, left top, from(#FFF), to(#DDD)); /* webkit browsers */
+	background: -moz-linear-gradient(bottom,  #FFF,  #DDD); /* Firefox 3.6+ */
+	}
+	
+#wrapper {
+	width:1000px;
+	margin-top:30px;
+	margin-left:auto;
+	margin-right:auto;
+	
+	border-width:1px;
+	border-style:solid;
+	border-color:green;
+	border-radius:25px;
+	-moz-border-radius:25px; /* Firefox 3.6 and earlier */
+	
+	background-color:#CC9;
+	box-shadow: 10px 10px 25px #888;
+	}
+
+/****** Search Bar Start ******/
+#searchBar {
+	height:31px;
+	
+	border:1px solid;
+	border-color:#ccc;
+	border-radius:25px;
+	-moz-border-radius:25px; /* Firefox 3.6 and earlier */
+	-webkit-border-radius:25px; /* webkit browsers */
+	
+	background: #CCC; /* non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ccc', endColorstr='#aaa'); /* IE */
+	background: -webkit-gradient(linear, left botttom, left top, from(#ccc), to(#aaa)); /* webkit browsers */
+	background: -moz-linear-gradient(bottom,  #ccc, #aaa,  #ccc); /* Firefox 3.6+ */
+	}
+	
+#searchTextBox {
+	position:relative;
+	float:left;
+	height:24px;
+	margin-top:2px;
+	margin-left:5px;
+	margin-right:3px;
+	padding-left:10px;
+	text-align:left;
+	border:0px none;
+	}
+	
+input[type=search] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	font-weight:bold;
+	font-size:1.1em;
+	color:#ddd;
+	text-shadow: 0px 1px 2px #333, 0px -1px 2px #000;
+	width:67px;
+	
+	background: #CCC; /* non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ccc', endColorstr='#aaa'); /* IE */
+	background: -webkit-gradient(linear, left botttom, left top, from(#ccc), to(#aaa)); /* webkit browsers */
+	background: -moz-linear-gradient(bottom,  #ccc, #aaa,  #ccc); /* Firefox 3.6+ */
+	
+	transition:all .5s;
+	-moz-transition:all .5s;
+	-webkit-transition:all .5s;
+	}
+	
+input[type=search]:focus {
+	color:#000;
+	font-size:1em;
+	font-weight:normal;
+	text-shadow:none;
+	width:175px;
+	background:#fff;
+	box-shadow:inset 0px 3px 8px #000;
+	
+	border-color:#ccc;
+	border-radius:25px;
+	-moz-border-radius:25px;
+	-webkit-border-radius:25px;
+	}
+	
+#searchGoButton {
+	width:27px;
+	height:27px;
+	margin-top:2px;
+	margin-right:2px;
+	position:relative;
+	float:left;
+	padding:0px;
+	color:#fff;
+	font-size:.8em;
+	
+	border:1px solid;
+	border-color:#555;
+	border-radius:100px;
+	-moz-border-radius:100px; /* Firefox 3.6 and earlier */
+	-webkit-border-radius:100px; /* webkit browsers */
+	
+	background: #999; /* non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ccc', endColorstr='#aaa'); /* IE */
+	background: -webkit-gradient(linear, left botttom, left top, from(#ccc), to(#aaa)); /* webkit browsers */
+	background: -moz-linear-gradient(bottom,  #666, #999,  #666); /* Firefox 3.6+ */
+	}
+	
+#searchGoButton:active {
+	box-shadow:inset 0px 3px 8px #333;
+	}
+/****** Search Bar End ******/
+
+/****** Header Start ******/
+#header {
+	width:1000px;
+	margin-top:10px;
+	margin-left:10px;
+	margin-right:10px;
+	
+	border-radius:25px 25px 0px 0px;
+	-moz-border-radius:25px 25px 0px 0px; /* Firefox 3.6 and earlier */
+	}
+
+#headerLogo {
+	width:175px;
+	height:125px;
+	position:relative;
+	float:left;
+	margin-bottom:10px;
+	
+	border-radius:25px 0px 0px 0px;
+	-moz-border-radius:25px 0px 0px 0px; /* Firefox 3.6 and earlier */
+	}
+	
+#headerTitle {
+	width:803px;
+	height:125px;
+	position:relative;
+	float:left;
+	margin-bottom:10px;
+	text-align:center;
+	
+	border-radius:0px 25px 0px 0px;
+	-moz-border-radius:0px 25px 0px 0px; /* Firefox 3.6 and earlier */
+	}
+/****** Header End ******/
+
+/****** Footer Start ******/
+#footer {
+	width:965px;
+	height:30px;
+	clear:left;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:10px;
+	padding-left:5px;
+	padding-right:10px;
+	text-align:right;
+	
+	border-radius:0px 0px 25px 25px;
+	-moz-border-radius:0px 0px 25px 25px; /* Firefox 3.6 and earlier */
+	}
+	
+#footerLeft{
+	position:relative;
+	float:left;
+	}
+	
+#delLink {
+	position:relative;
+	top:7px;
+	margin-left:10px;
+	visibility:hidden;
+	}
+	
+#delLink:hover
+	{ background-color:#F00; }
+/****** Footer End ******/
+
+/****** Content Start ******/
+#content {
+	clear:left;
+	margin-left:10px;
+	margin-right:10px;
+	}
+	
+#contentNews {
+	width:225px;
+	height:320px;
+	position:relative;
+	float:left;
+	margin-top:10px;
+	padding:10px;
+	border:0px none;
+	}
+	
+/****** Welcome/Login Start ******/
+	
+#welcomeContentLoginInputs {
+	width:305px;
+	position:relative;
+	float:right;
+	margin-top:50px;
+	}
+	
+#welcomeContentLoginSubmit {
+	clear:right;
+	width:250px;
+	position:relative;
+	float:right;
+	text-align:right;
+	padding-right:100px;
+	margin-top:10px;
+	}
+	
+#welcomeContentLoginButton {
+	width:75px;
+	height:30px;
+	margin-bottom:10px;
+	}
+/****** Welcome/Login End ******/
+/****** Home Screen Start ******/
+#homeScreenContentRightPanel {
+	width:705px;
+	height:350px;
+	position:relative;
+	float:left;
+	margin-top:10px;
+	padding-left:20px;
+	text-align:center;
+	}
+	
+#homeScreenRecipesButton {
+	width:350px;
+	height:100px;
+	margin-top:50px;
+	font-size:2.5em;
+	}
+	
+#homeScreenMealsButton {
+	width:350px;
+	height:100px;
+	margin-top:20px;
+	font-size:2.5em;
+	}
+/****** Home Screen End ******/
+/****** Recipe/Meal List Start ******/
+#rmList {
+	width:680px;
+	height:320px;
+	position:relative;
+	float:left;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-right:25px;
+	padding:10px;
+	border:0px none;
+	}
+	
+#rmListSearchFilters {
+	width:225px;
+	height:320px;
+	position:relative;
+	float:left;
+	margin-top:10px;
+	margin-bottom:10px;
+	padding:10px;
+	border:0px none;
+	}
+/****** Recipe/Meal List End ******/
+/****** Account Settings ******/
+#accountInfoLabels {
+	position:relative;
+	float:left;
+	margin-left:10%;
+	margin-right:10px;
+	margin-top:5%;
+	}
+	
+#accountInfoInputs {
+	position:relative;
+	float:left;
+	margin-top:5%;
+	line-height:1.45em;
+	}
+/****** Account Settings ******/
+/****** Add/Edit Meal Start ******/
+#mealInfoLeft, #mealInfoMiddle, #mealInfoRight {
+	width:358px;
+	height:320px;
+	position:relative;
+	float:left;
+	margin-top:10px;
+	margin-bottom:10px;
+	padding:10px;
+	border:0px none;
+	}
+	
+#mealInfoMiddle {
+	width:200px;
+	height:230px;
+	text-align:center;
+	padding-top:10%;
+	}
+/****** Add/Edit Meal End ******/
+/****** Content End ******/
