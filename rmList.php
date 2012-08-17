@@ -43,7 +43,7 @@
 		</div>
 		<div id="rmListSearchFilters" class="dropShadow softGradient" >
 			<span class="fontSubTitle" >Filters</span>
-			<div class="hr" ></div>
+			<div class="hrDark" ></div>
 		</div>
 	</div>
 	<!-- Content End -->

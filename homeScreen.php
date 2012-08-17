@@ -36,7 +36,7 @@
 	<div id="content" >
 		<div id="contentNews" class="dropShadow softGradient" >
 			<span class="fontSubTitle" >Recent News</span>
-			<div class="hr" ></div>
+			<div class="hrDark" ></div>
 			<?php include="recentNews.php" ?>
 		</div>
 		<div id="homeScreenContentRightPanel" >
