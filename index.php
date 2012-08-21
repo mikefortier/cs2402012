@@ -31,7 +31,7 @@
 		<div id="contentNews" class="dropShadow softGradient" >
 			<span class="fontSubTitle" >Recent News</span>
 			<div class="hrDark" ></div>
-			<?php include="recentNews.php" ?>
+			<?php include 'recentNews.php'; ?>
 		</div>
 		<div id="contentRightPanel" >
 			<form name="loginForm" action="#" method="post" >

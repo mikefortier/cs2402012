@@ -37,7 +37,7 @@
 		<div id="contentNews" class="dropShadow softGradient" >
 			<span class="fontSubTitle" >Recent News</span>
 			<div class="hrDark" ></div>
-			<?php include="recentNews.php" ?>
+			<?php include 'recentNews.php'; ?>
 		</div>
 		<div id="homeScreenContentRightPanel" >
 			<form action="rmList.php" name="homeScreenSelection" >
