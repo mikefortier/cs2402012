@@ -4,7 +4,7 @@
 	}
 	
 body
-	{ background-color:#FFC; }
+	{ background-image:url("images/bkg_light_linen.jpg"); }
 
 a {
 	padding:0px 5px;
@@ -36,16 +36,14 @@ input[type=text], input[type=password] {
 	
 .button {
 	padding:5px 10px;
-	text-shadow: 2px 2px 2px #060;
+	font-weight:bold;
+	color:#ddd;
+	text-shadow: 0px 1px 2px #333, 0px -1px 2px #000;
 	
 	border:1px solid;
 	border-color:#ccc;
 	border-radius:25px;
 	-moz-border-radius:25px; /* Firefox 3.6 and earlier */
-	
-	font-weight:bold;
-	color:#ddd;
-	text-shadow: 0px 1px 2px #333, 0px -1px 2px #000;
 	
 	background: #bbb; /* non-css3 browsers */
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ccc', endColorstr='#aaa'); /* IE */
@@ -80,11 +78,21 @@ input[type=text], input[type=password] {
 .fontSmall
 	{ font-size:.8em; }
 	
-.hr {
+.hrDark {
 	width:100%;
 	height:1px;
 	border:0px none;
 	background-color:#000;
+	margin-bottom:10px;
+	}
+	
+.hrLight {
+	clear:both;
+	width:100%;
+	height:1px;
+	border:0px none;
+	background-color:#888;
+	margin-bottom:10px;
 	}
 	
 .softGradient {
@@ -92,6 +100,15 @@ input[type=text], input[type=password] {
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFF', endColorstr='#DDD'); /* IE */
 	background: -webkit-gradient(linear, left botttom, left top, from(#FFF), to(#DDD)); /* webkit browsers */
 	background: -moz-linear-gradient(bottom,  #FFF,  #DDD); /* Firefox 3.6+ */
+	}
+	
+.vrLight {
+	height:100%;
+	width:1px;
+	border:0px none;
+	background-color:#888;
+	margin-left:10px;
+	margin-right:10px;
 	}
 	
 #wrapper {
@@ -106,7 +123,7 @@ input[type=text], input[type=password] {
 	border-radius:25px;
 	-moz-border-radius:25px; /* Firefox 3.6 and earlier */
 	
-	background-color:#CC9;
+	background-color:#bb9;
 	box-shadow: 10px 10px 25px #888;
 	}
 
@@ -394,4 +411,128 @@ input[type=search]:focus {
 	padding-top:10%;
 	}
 /****** Add/Edit Meal End ******/
+/****** Add/Edit Recipe Start ******/
+.txtIngrName, .txtIngrQty, .selIngrMeasure{
+	margin:5px;
+	margin-bottom:10px;
+	}
+	
+#txtIngrName0, #txtIngrQty0, #selIngrMeasure0
+	{ margin-right:1px; }
+
+#addIngrButton, #addDirButton {
+	height:30px;
+	width:30px;
+	font-size:1.1em;
+	}
+
+#directions {
+	clear:both;
+	padding-left:5px;
+	}
+	
+#ingredients {
+	width:975px;
+	}
+	
+#ingrTitle
+	{ padding-left:5px; }
+	
+#ingrLeftPanel {
+	position:relative;
+	float:left;
+	width:440px;
+	}
+	
+#ingrRightPanel {
+	position:relative;
+	float:left;
+	width:30px;
+	}
+	
+#recDescription {
+	position:relative;
+	float:right;
+	padding-right:15px;
+	margin-bottom:10px;
+	width:725px;
+	}
+	
+#recDescText {
+	min-height:125px;
+	min-width:718px;
+	max-width:718px;
+	}
+	
+#recPic {
+	position:relative;
+	float:right;
+	height:200px;
+	width:225px;
+	background-color:#ccc;
+	margin-right:15px;
+	}
+	
+#recTimes {
+	clear:both;
+	height:60px;
+	width:725px;
+	}
+	
+#recUnitOfMeasure {
+	position:relative;
+	float:right;
+	}
+	
+#recTimesTitle {
+	position:relative;
+	float:left;
+	text-align:left;
+	padding-left:5px;
+	padding-right:65px;
+	}
+
+#recTimesLeft, #recTimesRight {
+	text-align:center;
+	}
+	
+#recTimesLeft, #recTimesVr1, #recTimesVr2, #recTimesVr3, #recTimesRight,
+#recServVr2, #recServVr3 {
+	position:relative;
+	float:right;
+	height:50px;
+	}
+	
+#ingrTitle
+	{ padding-right:233px; }
+	
+#recServVr1 {
+	position:relative;
+	float:right;
+	height:50px;
+	margin-right:0px;
+	}
+	
+#recServings
+	{ padding-left:5px; }
+
+#recNumServWrapper {
+	position:relative;
+	float:right;
+	text-align:center;
+	}
+	
+#recServSizeWrapper {
+	position:relative;
+	float:right;
+	text-align:center;
+	}
+	
+#recDirText {
+	min-height:125px;
+	min-width:965px;
+	max-width:965px;
+	margin-bottom:10px;
+	}
+/****** Add/Edit Recipe End ******/
 /****** Content End ******/

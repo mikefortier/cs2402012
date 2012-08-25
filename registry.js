@@ -7,5 +7,6 @@ function eventHookup(id, event, callback) { // a callback is the function used l
 }
 
 function loader() { // insert eventHookup functions here
-	
+	eventHookup("ingredients", "load", AddIngrField);
+	eventHookup("addIngrButton", "click", AddIngrField);
 }

@@ -17,7 +17,7 @@
 	function loadAddOrEdit(){
 		//check whether user is creating or editing an account
 		//if creating, then load form with empty inputs
-		//if editing, then pull user info, autofill inputs, and unhide #delAccount
+		//if editing, then pull user info, autofill inputs, and unhide #delMeal
 		};
 ?>
 
