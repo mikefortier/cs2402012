@@ -417,7 +417,7 @@ input[type=search]:focus {
 	margin-bottom:10px;
 	}
 	
-#txtIngrName1, #txtIngrQty1, #selIngrMeasure1
+#txtIngrName0, #txtIngrQty0, #selIngrMeasure0
 	{ margin-right:1px; }
 
 #addIngrButton, #addDirButton {

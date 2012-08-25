@@ -71,9 +71,9 @@
 				<div id="ingrLeftPanel" >
 					<span id="ingrTitle" class="fontSubTitle" >Ingredients:</span>
 					<div>
-						<input type='text' id='txtIngrName1' class='txtIngrName dropShadow' placeholder='Name of ingredient' size='38' maxlength='100' />
-						<input type='text' id='txtIngrQty1' class='txtIngrName dropShadow' placeholder='Qty' size='3' maxlength='3' />
-						<select id='selIngrMeasure1' class='selIngrMeasure' >
+						<input type='text' id='txtIngrName0' class='txtIngrName dropShadow' placeholder='Name of ingredient' size='38' maxlength='100' />
+						<input type='text' id='txtIngrQty0' class='txtIngrName dropShadow' placeholder='Qty' size='3' maxlength='3' />
+						<select id='selIngrMeasure0' class='selIngrMeasure' >
 							<option value='' >pinch</option>
 							<option value='' >teaspoon</option>
 							<option value='' >tablespoon</option>
@@ -131,7 +131,7 @@
 				<a href="#" id="delLink" >Delete Recipe</a>
 			</div>
 			<input type="submit" class="button dropShadow" value="Save Recipe" />&nbsp;
-			<input type="button" class="button dropShadow" value="Reset" />&nbsp;
+			<input type="reset" class="button dropShadow" value="Reset" />&nbsp;
 			<input type="button" class="button dropShadow" value="Cancel" />
 		</div>
 		<!-- Footer End -->
