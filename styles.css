@@ -75,6 +75,12 @@ input[type=text], input[type=password] {
 	text-shadow: 5px 5px 15px #060;
 	}
 	
+.fontSubTitle2 {
+	font-size:1.5em;
+	font-weight:bold;
+	text-shadow: 5px 5px 15px #060;
+	}
+	
 .fontSmall
 	{ font-size:.8em; }
 	
@@ -435,7 +441,7 @@ input[type=search]:focus {
 	width:975px;
 	}
 	
-#ingrTitle
+#ingrTitle, #ingrList
 	{ padding-left:5px; }
 	
 #ingrLeftPanel {
@@ -462,6 +468,7 @@ input[type=search]:focus {
 	min-height:125px;
 	min-width:718px;
 	max-width:718px;
+	padding-left:5px;
 	}
 	
 #recPic {
@@ -535,4 +542,8 @@ input[type=search]:focus {
 	margin-bottom:10px;
 	}
 /****** Add/Edit Recipe End ******/
+/****** Shopping List Start ******/
+#insertIngrListHere
+	{ padding-left:5px; }
+/****** Shopping List End ******/
 /****** Content End ******/
